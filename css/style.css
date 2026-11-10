@@ -339,7 +339,7 @@ main {
         padding-bottom: 0;
     }
 
-    nav.open {
+    nav.open-menu {
         display: flex;
         align-items: center;
         width: auto;
