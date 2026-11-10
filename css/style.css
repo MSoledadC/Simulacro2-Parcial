@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input,
+button {
+    border: none;
+    outline: none;
+}
+
+header {
+    background: #222222;
+    box-shadow: 0px 3px 3px 0px #00000040;
+    padding: 25px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-titulo {
+    width: 40px;
+    padding-right: 10px;
+}
+
+.titulo1-nav {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #F3F3F3;
+}
+
+.contenedor-nav {
+    display: flex;
+    align-items: center;
+
+}
+
+nav {
+    display: none;
+    width: 100%;
+    order: 3;
+    padding-bottom: 15px;
+}
+
+nav.open {
+    display: block;
+
+}
+
+.icon-compra {
+    display: none;
+}
+
+nav,
+ul,
+li {
+    cursor: pointer;
+}
+
+.contenedor-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contenedor-menu a {
+    color: #F3F3F3;
+}
+
+.titulo2-nav {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #D01418;
+}
+
+.btn-menu {
+    background: transparent;
+    cursor: pointer;
+    font-size: 27px;
+}
+
+.icono-menu {
+    color: #FFFFFF;
+}
+
+main {
+    background-color: #f5f1f1;
+}
+
+.hero {
+    background-image: url(../img/img\ 1.png);
+    width: 100%;
+    height: 440px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.texto-hero {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.texto-hero p {
+    font-weight: 700;
+    font-size: 40px;
+    color: #F3F3F3;
+}
+
+.texto-hero p span {
+    color: #D01418;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.texto-hero button {
+    background-color: #D01418;
+    color: #FFFFFF;
+    padding: 12px 35px;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.produtos-destacados {
+    text-align: center;
+}
+
+.produtos-destacados h1,
+.produtos-destacados h2 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    border: 0.2px solid #22222224;
+    margin-bottom: 45px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+
+.p-destacados {
+    width: 130px;
+    height: 163px;
+}
+
+.card-cabecera {
+    margin: 20px 0px;
+}
+
+
+.card-cuerpo {
+    border-top: 1px solid #e0e0e0;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-cuerpo h4 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    padding-bottom: 5px;
+}
+
+.card-cuerpo p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.card-envio {
+    font-weight: 400;
+    font-size: 10px;
+    color: #619D00;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-top: 5px;
+}
+
+.contenedor-banners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.banner {
+    max-width: 280px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.banners {
+    position: relative;
+    display: inline-block;
+}
+
+.banners h3 {
+    position: absolute;
+    bottom: 50%;
+    right: 20px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.contenedor-footer {
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 20px;
+}
+
+.footer-bottom {
+    background-color: #C4C4C4;
+    text-align: center;
+    font-weight: 400;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.redes h3 {
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.footer-icon i {
+    font-size: 25px;
+}
+
+.i-twitter {
+    color: #14AED0;
+}
+
+.i-face {
+    color: #1476D0;
+}
+
+.i-ig {
+    color: #CE0CFF;
+}
+
+/* Medias Q ESCRITORIO */
+@media (min-width: 1024px) {
+    .navbar {
+        flex-wrap: nowrap;
+    }
+
+    .btn-menu {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        width: auto;
+        padding-bottom: 0;
+    }
+
+    nav.open {
+        display: flex;
+        align-items: center;
+        width: auto;
+        padding-bottom: 0;
+    }
+
+    .contenedor-menu {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        align-items: center;
+        gap: 20px;
+        font-size: 16px;
+        font-weight: 700;
+        justify-content: flex-end;
+        padding-top: 0;
+    }
+
+    .contenedor-menu a {
+        color: #F3F3F3;
+    }
+
+    .icon-compra {
+        display: inline-block;
+        color: #D01418;
+        padding-left: 10px;
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    .contenedor-menu a:hover {
+        color: #D01418;
+    }
+
+    .icon-compra:hover {
+        color: #F3F3F3;
+    }
+
+    .hero {
+        background-image: url(../img/img\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 90vh;
+    }
+
+    .texto-hero {
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .texto-hero p {
+        font-weight: 700;
+        font-size: 40px;
+        color: #F3F3F3;
+    }
+
+    .texto-hero p span {
+        color: #D01418;
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .texto-hero button {
+        background-color: #D01418;
+        color: #FFFFFF;
+        padding: 12px 35px;
+        font-size: 25px;
+        font-weight: 500;
+        border-radius: 5px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    .texto-hero button:hover {
+        background-color: #FFFFFF;
+        color: #D01418;
+    }
+
+    .cards {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .card {
+        max-width: 265px;
+        width: 100%;
+    }
+
+    .contenedor-banners {
+        flex-direction: row;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    .banners {
+        position: relative;
+        display: inline-block;
+    }
+
+    .banners h3 {
+        position: absolute;
+        bottom: 50%;
+        right: 20px;
+        color: #FFFFFF;
+        font-size: 22px;
+    }
+
+    .banner {
+        max-width: 400px;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .contenedor-footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+}
