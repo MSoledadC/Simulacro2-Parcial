@@ -170,6 +170,14 @@ main {
     margin-bottom: 20px;
 }
 
+.p-destacados {
+    transition: transform 0.3s ease;
+}
+
+.p-destacados:hover {
+    transform: scale(1.2);
+}
+
 .cards {
     display: flex;
     flex-direction: column;
@@ -257,8 +265,15 @@ main {
     position: absolute;
     bottom: 50%;
     right: 20px;
-    color: #FFFFFF;
+    color: #F3F3F3;
     font-size: 15px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.banners h3:hover {
+    color: #D01418;
+    border-color: #F3F3F3;
 }
 
 .contenedor-footer {
@@ -438,7 +453,8 @@ main {
         position: absolute;
         bottom: 50%;
         right: 20px;
-        color: #FFFFFF;
+        color: #F3F3F3;
+        font-weight: 400;
         font-size: 22px;
     }
 
