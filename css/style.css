@@ -91,6 +91,10 @@ li {
     color: #F3F3F3;
 }
 
+.contenedor-menu a:hover {
+    color: #D01418;
+}
+
 .titulo2-nav {
     font-weight: 400;
     font-size: 30px;
@@ -156,8 +160,18 @@ main {
     cursor: pointer;
 }
 
+.texto-hero button:hover {
+    background-color: #FFFFFF;
+    color: #D01418;
+}
+
 .produtos-destacados {
     text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.p-destacados:hover {
+    transform: scale(1.2);
 }
 
 .produtos-destacados h1,
@@ -168,14 +182,6 @@ main {
     letter-spacing: 0%;
     color: #000000;
     margin-bottom: 20px;
-}
-
-.p-destacados {
-    transition: transform 0.3s ease;
-}
-
-.p-destacados:hover {
-    transform: scale(1.2);
 }
 
 .cards {
@@ -370,10 +376,6 @@ main {
         font-size: 24px;
     }
 
-    .contenedor-menu a:hover {
-        color: #D01418;
-    }
-
     .icon-compra:hover {
         color: #F3F3F3;
     }
@@ -419,11 +421,6 @@ main {
         border-radius: 5px;
         margin-top: 20px;
         cursor: pointer;
-    }
-
-    .texto-hero button:hover {
-        background-color: #FFFFFF;
-        color: #D01418;
     }
 
     .cards {
